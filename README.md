@@ -6,6 +6,11 @@ This repository contains the dimensional model for Fufu Republic, a popular rest
 ### Case Study Summary
 Fufu Republic operates multiple outlets across Nigeria, offering a standardized menu with some regional variations. The restaurant supports dine-in, take-out, and online orders, and accepts various payment methods (cash, card via POS, and online payments).
 
+## Entity Relationship Diagram (ERD)
+
+The following diagram represents the relationships between the key entities in the Fufu Republic data model:
+
+![Fufu Republic ERD](./fufu-modelling.png)
 
 
 ### Business Challenges
@@ -46,15 +51,3 @@ The dimensional model in this project is designed to address the following busin
   - `Total Amount`
   - `Discount Applied`
   - `Inventory Impact`
-
-## Project Structure
-The repository contains the following key files and directories:
-- `sql/`: SQL scripts to create the necessary tables and relationships in the database.
-- `models/`: Contains the **Entity Relationship Diagram (ERD)**, defining relationships between entities.
-- `README.md`: Project overview and instructions.
-- `scripts/`: Optional directory for ETL (Extract, Transform, Load) scripts if the model is populated with real data.
-
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/fufu-republic-data-warehouse.git
